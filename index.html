@@ -4,16 +4,20 @@
         <meta charset="utf-8">
         <title>ポートフォリオ</title>
         <meta name="description" content="ポートフォリオ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script src="https://kit.fontawesome.com/18d96f280e.js"></script>
 
     <!-- CSS -->
+        <link href="https://unpkg.com/ress/dist/ress.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <div class="wrapper">
+            <div class="wrapper page-header">
                 <h1 class="home"><a href="index.html">My Name</a></h1>
                 <ul class="sns-list">
                     <li><i class="fab fa-twitter-square sns-icon"></i></li>
@@ -29,14 +33,18 @@
                 <div class="wrapper">
                     <h2 class="main-title">about</h2>
                     <div class="main-body">
-                        <img src="images/myself.jpg" alt="自分の写真">
-                        <p>
-                            〇〇大学〇〇学部〇〇学科の〇〇と申します。<br>
-                            私は、UIやUXを考慮したデザインについては、どのような人にも優越している自信があります。
-                            ウェブサイト上では、形式化されやすい傾向は多いものと考えられますが、
-                            さらなるユーザービリティの向上や、競合他社に差をつけられるか、
-                            また、デザイン性などを特段意識していくとともにウェブデザインを実践していく所存です。
-                        </p>
+                        <div class="left-image">
+                            <img src="images/myself.jpg" alt="自分の写真">
+                        </div>
+                        <div class="right-text">
+                            <p>
+                                〇〇大学〇〇学部〇〇学科の〇〇と申します。<br>
+                                私は、UIやUXを考慮したデザインについては、どのような人にも優越している自信があります。
+                                ウェブサイト上では、形式化されやすい傾向は多いものと考えられますが、
+                                さらなるユーザービリティの向上や、競合他社に差をつけられるか、
+                                また、デザイン性などを特段意識していくとともにウェブデザインを実践していく所存です。
+                            </p>
+                        </div>
                     </div><!-- /.main-body -->
                 </div><!-- /.wrapper -->
             </article>
