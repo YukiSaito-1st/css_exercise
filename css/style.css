@@ -9,10 +9,7 @@ body {
     font-family: "Yu Gothic Medium", YuGothic, sans-serif;
     line-height:  1.7;
     text-align: center;
-    max-width: 980px;
     margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
 }
 h1 {
     font-family: 'Abril Fatface', cursive;
@@ -33,10 +30,16 @@ img {
 
 /* HEADER
 -------------------- */
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .home {
     margin-left: 100px;
 }
-
 .sns-list {
     display: flex;
     font-size: 30px;
@@ -47,25 +50,24 @@ img {
 .sns-list li {
     margin-left: 16px;
 }
-header .wrapper {
-    display: flex;
-    justify-content: space-between;
-}
 
 /* MAIN
 -------------------- */
 .main-image {
     margin-top: 20px;
+    width: 100%;
 }
 .main-title {
     margin-top: 60px;
 }
-
 .main-body {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main-body img {
     border-radius: 50%;
@@ -87,12 +89,14 @@ footer {
     margin-top: 40px;
     background-color: black;
     height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer p {
     color: #fff;
-    padding-top: 20px;
 }
-
 
 /* タブレット版
 ---------------------------------------- */
@@ -138,7 +142,6 @@ footer p {
         margin-right: auto;
     }
     .main-body p {
-        font-size: 24px;
         margin-top: 40px;
         margin-left: 90px;
         margin-right: 90px;
@@ -190,7 +193,6 @@ footer p {
         width: 300px;
     }
     .main-body p {
-        font-size: 16px;
         margin-left: 40px;
         margin-right: 40px;
     }
